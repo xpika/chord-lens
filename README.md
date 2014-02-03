@@ -2,7 +2,7 @@ chord-lens
 ==========
 
 ```haskell
-*Main> putStrLn $ renderChords ( chord .~ (majorChord D) $ def)
+*Main> print $ tuning %~ tail $ chord .~ (majorChord D) $ def
 =oo===
 ------
 *--*-*
