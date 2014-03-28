@@ -51,7 +51,7 @@ cabal-version:       >=1.10
 
 library
   -- Modules exported by the library.
-  exposed-modules:     Music.Instrument.Lens.Lens
+  exposed-modules:     Music.Instrument.Chord.Lens.Lens
   
   -- Modules included in this library but not exported.
   -- other-modules:       
@@ -60,7 +60,8 @@ library
   other-extensions:    TemplateHaskell, DeriveDataTypeable
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.6 && <4.7, instrument-chord >=0.1 && <0.2, data-default >=0.5 && <0.6, lens >=3.10 && <3.11
+  build-depends:       base >=4.6 && <4.7, instrument-chord >=0.1 && <0.2, data-default >=0.5 && <0.6 
+  --, lens >=3.10 && <3.11
   
   -- Directories containing source files.
   -- hs-source-dirs:      
